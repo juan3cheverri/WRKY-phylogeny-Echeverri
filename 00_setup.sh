@@ -1,16 +1,11 @@
 #!/bin/bash
-set -e
+set -euo pipefail
 
-echo "Actualizando paquetes..."
-apt-get update -qq
+PROJECT="/content/WRKY-phylogeny-Echeverri"
 
-echo "Instalando herramientas básicas..."
-apt-get install -y wget curl unzip git ncbi-blast+ seqtk muscle iqtree
+mkdir -p "$PROJECT"/{00_raw,01_ids,02_seqtk,03_blast,04_alignment,05_iqtree,logs,scripts,figures}
 
-echo "Verificando instalaciones..."
-blastp -version || true
-seqtk 2>&1 | head -n 2 || true
-muscle -version || true
-iqtree2 -version || true
+echo "Proyecto ubicado en: $PROJECT"
+echo "Carpetas creadas correctamente."
 
-echo "Setup completado."
+ls -la "$PROJECT"
