@@ -1,0 +1,977 @@
+IQ-TREE version 3.1.1 for Linux x86 64-bit built Apr  2 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    Shelleysbeast (AVX2, FMA3, 15 GB RAM)
+Command: iqtree -s /home/juan/WRKY-phylogeny-Echeverri/03_alignment/WRKY_all_species_aligned.fa -m LG+G4 -bb 1000 -alrt 1000 -nt AUTO
+Seed:    135027 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Apr  6 14:37:44 2026
+Kernel:  AVX+FMA - auto-detect threads (16 CPU cores detected)
+
+Reading alignment file /home/juan/WRKY-phylogeny-Echeverri/03_alignment/WRKY_all_species_aligned.fa ... Fasta format detected
+Reading fasta file: done in 0.00682153 secs using 58.05% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.0060243 secs using 819% CPU
+Alignment has 215 sequences with 4194 columns, 3004 distinct patterns
+1609 parsimony-informative, 1040 singleton sites, 1545 constant sites
+WARNING: Some sequence names are changed as follows:
+AT2G37260.1|PACid:19638141 -> AT2G37260.1|PACid_19638141
+AT2G44745.1|PACid:19638720 -> AT2G44745.1|PACid_19638720
+AT2G03340.1|PACid:19638813 -> AT2G03340.1|PACid_19638813
+AT2G47260.1|PACid:19638986 -> AT2G47260.1|PACid_19638986
+AT2G25000.1|PACid:19639530 -> AT2G25000.1|PACid_19639530
+AT2G46130.1|PACid:19639763 -> AT2G46130.1|PACid_19639763
+AT2G34830.1|PACid:19639979 -> AT2G34830.1|PACid_19639979
+AT2G38470.1|PACid:19640205 -> AT2G38470.1|PACid_19640205
+AT2G24570.1|PACid:19640773 -> AT2G24570.1|PACid_19640773
+AT2G46400.1|PACid:19641583 -> AT2G46400.1|PACid_19641583
+AT2G30250.1|PACid:19641915 -> AT2G30250.1|PACid_19641915
+AT2G40740.1|PACid:19642333 -> AT2G40740.1|PACid_19642333
+AT2G04880.1|PACid:19642396 -> AT2G04880.1|PACid_19642396
+AT2G23320.1|PACid:19643488 -> AT2G23320.1|PACid_19643488
+AT2G21900.1|PACid:19643565 -> AT2G21900.1|PACid_19643565
+AT4G12020.2|PACid:19644332 -> AT4G12020.2|PACid_19644332
+AT4G31800.1|PACid:19644902 -> AT4G31800.1|PACid_19644902
+AT4G01250.1|PACid:19645584 -> AT4G01250.1|PACid_19645584
+AT4G11070.1|PACid:19646382 -> AT4G11070.1|PACid_19646382
+AT4G26640.2|PACid:19646464 -> AT4G26640.2|PACid_19646464
+AT4G22070.1|PACid:19646691 -> AT4G22070.1|PACid_19646691
+AT4G04450.1|PACid:19647041 -> AT4G04450.1|PACid_19647041
+AT4G24240.1|PACid:19647169 -> AT4G24240.1|PACid_19647169
+AT4G31550.1|PACid:19647358 -> AT4G31550.1|PACid_19647358
+AT4G30935.1|PACid:19647487 -> AT4G30935.1|PACid_19647487
+AT4G18170.1|PACid:19647683 -> AT4G18170.1|PACid_19647683
+AT4G26440.1|PACid:19647770 -> AT4G26440.1|PACid_19647770
+AT4G23810.1|PACid:19648384 -> AT4G23810.1|PACid_19648384
+AT4G01720.1|PACid:19648609 -> AT4G01720.1|PACid_19648609
+AT4G23550.1|PACid:19648615 -> AT4G23550.1|PACid_19648615
+AT4G39410.1|PACid:19648649 -> AT4G39410.1|PACid_19648649
+AT1G69810.1|PACid:19649130 -> AT1G69810.1|PACid_19649130
+AT1G80840.1|PACid:19649422 -> AT1G80840.1|PACid_19649422
+AT1G29860.1|PACid:19650009 -> AT1G29860.1|PACid_19650009
+AT1G18860.1|PACid:19650959 -> AT1G18860.1|PACid_19650959
+AT1G66600.1|PACid:19652039 -> AT1G66600.1|PACid_19652039
+AT1G64000.1|PACid:19652244 -> AT1G64000.1|PACid_19652244
+AT1G13960.1|PACid:19652502 -> AT1G13960.1|PACid_19652502
+AT1G55600.1|PACid:19653520 -> AT1G55600.1|PACid_19653520
+AT1G69310.1|PACid:19653724 -> AT1G69310.1|PACid_19653724
+AT1G80590.1|PACid:19655764 -> AT1G80590.1|PACid_19655764
+AT1G30650.1|PACid:19655852 -> AT1G30650.1|PACid_19655852
+AT1G66560.1|PACid:19656825 -> AT1G66560.1|PACid_19656825
+AT1G66550.1|PACid:19658266 -> AT1G66550.1|PACid_19658266
+AT3G01970.1|PACid:19658911 -> AT3G01970.1|PACid_19658911
+AT3G01080.1|PACid:19659310 -> AT3G01080.1|PACid_19659310
+AT3G04670.1|PACid:19659974 -> AT3G04670.1|PACid_19659974
+AT3G62340.1|PACid:19663331 -> AT3G62340.1|PACid_19663331
+AT3G56400.1|PACid:19664734 -> AT3G56400.1|PACid_19664734
+AT5G49520.1|PACid:19665664 -> AT5G49520.1|PACid_19665664
+AT5G56270.1|PACid:19665783 -> AT5G56270.1|PACid_19665783
+AT5G41570.1|PACid:19666559 -> AT5G41570.1|PACid_19666559
+AT5G01900.1|PACid:19667034 -> AT5G01900.1|PACid_19667034
+AT5G52830.1|PACid:19667107 -> AT5G52830.1|PACid_19667107
+AT5G26170.1|PACid:19667187 -> AT5G26170.1|PACid_19667187
+AT5G46350.1|PACid:19667690 -> AT5G46350.1|PACid_19667690
+AT5G13080.1|PACid:19668284 -> AT5G13080.1|PACid_19668284
+AT5G22570.1|PACid:19668690 -> AT5G22570.1|PACid_19668690
+AT5G45260.1|PACid:19669059 -> AT5G45260.1|PACid_19669059
+AT5G15130.1|PACid:19669511 -> AT5G15130.1|PACid_19669511
+AT5G64810.1|PACid:19670059 -> AT5G64810.1|PACid_19670059
+AT5G07100.1|PACid:19670115 -> AT5G07100.1|PACid_19670115
+AT5G45050.1|PACid:19670641 -> AT5G45050.1|PACid_19670641
+AT5G43290.1|PACid:19671697 -> AT5G43290.1|PACid_19671697
+AT5G28650.1|PACid:19671738 -> AT5G28650.1|PACid_19671738
+AT5G24110.1|PACid:19673033 -> AT5G24110.1|PACid_19673033
+LOC_Os10g18099.1|PACid:24094147 -> LOC_Os10g18099.1|PACid_24094147
+LOC_Os08g13840.2|PACid:24098212 -> LOC_Os08g13840.2|PACid_24098212
+LOC_Os08g38990.3|PACid:24098687 -> LOC_Os08g38990.3|PACid_24098687
+LOC_Os08g17400.1|PACid:24101198 -> LOC_Os08g17400.1|PACid_24101198
+LOC_Os08g29660.1|PACid:24101332 -> LOC_Os08g29660.1|PACid_24101332
+LOC_Os04g50920.1|PACid:24103135 -> LOC_Os04g50920.1|PACid_24103135
+LOC_Os04g46060.1|PACid:24103214 -> LOC_Os04g46060.1|PACid_24103214
+LOC_Os04g51560.1|PACid:24104755 -> LOC_Os04g51560.1|PACid_24104755
+LOC_Os04g21950.1|PACid:24106977 -> LOC_Os04g21950.1|PACid_24106977
+LOC_Os04g39570.1|PACid:24108384 -> LOC_Os04g39570.1|PACid_24108384
+LOC_Os07g39480.1|PACid:24110549 -> LOC_Os07g39480.1|PACid_24110549
+LOC_Os07g48260.1|PACid:24112304 -> LOC_Os07g48260.1|PACid_24112304
+LOC_Os07g02060.1|PACid:24112729 -> LOC_Os07g02060.1|PACid_24112729
+LOC_Os07g27670.1|PACid:24113088 -> LOC_Os07g27670.1|PACid_24113088
+LOC_Os07g40570.1|PACid:24113117 -> LOC_Os07g40570.1|PACid_24113117
+LOC_Os01g43650.1|PACid:24113784 -> LOC_Os01g43650.1|PACid_24113784
+LOC_Os01g47560.1|PACid:24114059 -> LOC_Os01g47560.1|PACid_24114059
+LOC_Os01g60540.1|PACid:24114150 -> LOC_Os01g60540.1|PACid_24114150
+LOC_Os01g18584.1|PACid:24114432 -> LOC_Os01g18584.1|PACid_24114432
+LOC_Os01g53040.1|PACid:24116390 -> LOC_Os01g53040.1|PACid_24116390
+LOC_Os01g51690.1|PACid:24116605 -> LOC_Os01g51690.1|PACid_24116605
+LOC_Os01g74140.1|PACid:24117010 -> LOC_Os01g74140.1|PACid_24117010
+LOC_Os01g43550.1|PACid:24117685 -> LOC_Os01g43550.1|PACid_24117685
+LOC_Os01g46800.1|PACid:24118091 -> LOC_Os01g46800.1|PACid_24118091
+LOC_Os01g54600.1|PACid:24118401 -> LOC_Os01g54600.1|PACid_24118401
+LOC_Os01g14440.1|PACid:24118460 -> LOC_Os01g14440.1|PACid_24118460
+LOC_Os01g09080.1|PACid:24118793 -> LOC_Os01g09080.1|PACid_24118793
+LOC_Os01g09100.1|PACid:24119597 -> LOC_Os01g09100.1|PACid_24119597
+LOC_Os01g60600.1|PACid:24119621 -> LOC_Os01g60600.1|PACid_24119621
+LOC_Os01g53260.1|PACid:24120034 -> LOC_Os01g53260.1|PACid_24120034
+LOC_Os01g08710.1|PACid:24120668 -> LOC_Os01g08710.1|PACid_24120668
+LOC_Os01g62514.1|PACid:24120717 -> LOC_Os01g62514.1|PACid_24120717
+LOC_Os01g40430.1|PACid:24121362 -> LOC_Os01g40430.1|PACid_24121362
+LOC_Os01g60490.1|PACid:24121375 -> LOC_Os01g60490.1|PACid_24121375
+LOC_Os01g61080.1|PACid:24121503 -> LOC_Os01g61080.1|PACid_24121503
+LOC_Os01g60640.1|PACid:24121505 -> LOC_Os01g60640.1|PACid_24121505
+LOC_Os01g40260.1|PACid:24121525 -> LOC_Os01g40260.1|PACid_24121525
+LOC_Os03g53050.1|PACid:24122325 -> LOC_Os03g53050.1|PACid_24122325
+LOC_Os03g55080.1|PACid:24125535 -> LOC_Os03g55080.1|PACid_24125535
+LOC_Os03g55164.1|PACid:24125917 -> LOC_Os03g55164.1|PACid_24125917
+LOC_Os03g20550.1|PACid:24126549 -> LOC_Os03g20550.1|PACid_24126549
+LOC_Os03g33012.1|PACid:24126791 -> LOC_Os03g33012.1|PACid_24126791
+LOC_Os03g21710.1|PACid:24127298 -> LOC_Os03g21710.1|PACid_24127298
+LOC_Os03g63810.1|PACid:24127381 -> LOC_Os03g63810.1|PACid_24127381
+LOC_Os03g58420.1|PACid:24128364 -> LOC_Os03g58420.1|PACid_24128364
+LOC_Os02g08440.1|PACid:24129555 -> LOC_Os02g08440.1|PACid_24129555
+LOC_Os02g47060.1|PACid:24131554 -> LOC_Os02g47060.1|PACid_24131554
+LOC_Os02g43560.1|PACid:24132170 -> LOC_Os02g43560.1|PACid_24132170
+LOC_Os02g16540.1|PACid:24133330 -> LOC_Os02g16540.1|PACid_24133330
+LOC_Os02g53100.1|PACid:24134469 -> LOC_Os02g53100.1|PACid_24134469
+LOC_Os02g26430.1|PACid:24134718 -> LOC_Os02g26430.1|PACid_24134718
+LOC_Os09g09630.1|PACid:24135501 -> LOC_Os09g09630.1|PACid_24135501
+LOC_Os09g25060.1|PACid:24135826 -> LOC_Os09g25060.1|PACid_24135826
+LOC_Os09g25070.1|PACid:24136871 -> LOC_Os09g25070.1|PACid_24136871
+LOC_Os09g16510.1|PACid:24137546 -> LOC_Os09g16510.1|PACid_24137546
+LOC_Os09g30400.3|PACid:24138167 -> LOC_Os09g30400.3|PACid_24138167
+LOC_Os06g06360.1|PACid:24139321 -> LOC_Os06g06360.1|PACid_24139321
+LOC_Os06g30860.1|PACid:24140437 -> LOC_Os06g30860.1|PACid_24140437
+LOC_Os06g44010.1|PACid:24141799 -> LOC_Os06g44010.1|PACid_24141799
+LOC_Os06g05380.1|PACid:24144138 -> LOC_Os06g05380.1|PACid_24144138
+LOC_Os12g01180.1|PACid:24144948 -> LOC_Os12g01180.1|PACid_24144948
+LOC_Os12g02450.1|PACid:24145572 -> LOC_Os12g02450.1|PACid_24145572
+LOC_Os12g02440.4|PACid:24145647 -> LOC_Os12g02440.4|PACid_24145647
+LOC_Os12g02420.1|PACid:24145659 -> LOC_Os12g02420.1|PACid_24145659
+LOC_Os12g02400.1|PACid:24146826 -> LOC_Os12g02400.1|PACid_24146826
+LOC_Os12g40570.1|PACid:24148383 -> LOC_Os12g40570.1|PACid_24148383
+LOC_Os12g32250.1|PACid:24148907 -> LOC_Os12g32250.1|PACid_24148907
+LOC_Os05g25770.1|PACid:24150103 -> LOC_Os05g25770.1|PACid_24150103
+LOC_Os05g40080.1|PACid:24150175 -> LOC_Os05g40080.1|PACid_24150175
+LOC_Os05g09020.1|PACid:24150747 -> LOC_Os05g09020.1|PACid_24150747
+LOC_Os05g04640.1|PACid:24150875 -> LOC_Os05g04640.1|PACid_24150875
+LOC_Os05g49210.1|PACid:24150977 -> LOC_Os05g49210.1|PACid_24150977
+LOC_Os05g27730.1|PACid:24151842 -> LOC_Os05g27730.1|PACid_24151842
+LOC_Os05g40070.1|PACid:24151966 -> LOC_Os05g40070.1|PACid_24151966
+LOC_Os05g03900.2|PACid:24152043 -> LOC_Os05g03900.2|PACid_24152043
+LOC_Os05g46020.1|PACid:24152641 -> LOC_Os05g46020.1|PACid_24152641
+LOC_Os05g50610.1|PACid:24152871 -> LOC_Os05g50610.1|PACid_24152871
+LOC_Os05g40060.1|PACid:24153219 -> LOC_Os05g40060.1|PACid_24153219
+LOC_Os05g49100.1|PACid:24153412 -> LOC_Os05g49100.1|PACid_24153412
+LOC_Os05g45230.1|PACid:24154164 -> LOC_Os05g45230.1|PACid_24154164
+LOC_Os05g50700.1|PACid:24154354 -> LOC_Os05g50700.1|PACid_24154354
+LOC_Os05g14370.1|PACid:24154402 -> LOC_Os05g14370.1|PACid_24154402
+LOC_Os05g39720.1|PACid:24154429 -> LOC_Os05g39720.1|PACid_24154429
+LOC_Os05g49620.1|PACid:24154469 -> LOC_Os05g49620.1|PACid_24154469
+LOC_Os11g02530.1|PACid:24155942 -> LOC_Os11g02530.1|PACid_24155942
+LOC_Os11g45850.1|PACid:24156532 -> LOC_Os11g45850.1|PACid_24156532
+LOC_Os11g02520.1|PACid:24158297 -> LOC_Os11g02520.1|PACid_24158297
+LOC_Os11g02480.2|PACid:24159224 -> LOC_Os11g02480.2|PACid_24159224
+LOC_Os11g29870.1|PACid:24159287 -> LOC_Os11g29870.1|PACid_24159287
+LOC_Os11g02470.1|PACid:24159400 -> LOC_Os11g02470.1|PACid_24159400
+
+                                 Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.013008 secs using 1565% CPU
+   1  AT2G37260.1|PACid_19638141        89.77%    failed      0.00%
+   2  AT2G44745.1|PACid_19638720        94.80%    failed      0.05%
+   3  AT2G03340.1|PACid_19638813        87.77%    failed      0.00%
+   4  AT2G47260.1|PACid_19638986        91.96%    failed      0.02%
+   5  AT2G25000.1|PACid_19639530        93.54%    failed      0.16%
+   6  AT2G46130.1|PACid_19639763        97.40%    passed     29.15%
+   7  AT2G34830.1|PACid_19639979        89.82%    failed      0.00%
+   8  AT2G38470.1|PACid_19640205        87.63%    failed      0.00%
+   9  AT2G24570.1|PACid_19640773        92.35%    failed      0.01%
+  10  AT2G46400.1|PACid_19641583        92.97%    failed      0.00%
+  11  AT2G30250.1|PACid_19641915        90.63%    failed      0.01%
+  12  AT2G40740.1|PACid_19642333        93.04%    passed     12.02%
+  13  AT2G04880.1|PACid_19642396        88.39%    failed      0.00%
+  14  AT2G23320.1|PACid_19643488        92.44%    failed      0.00%
+  15  AT2G21900.1|PACid_19643565        95.18%    failed      0.00%
+  16  AT4G12020.2|PACid_19644332        54.82%    failed      0.00%
+  17  AT4G31800.1|PACid_19644902        92.61%    failed      0.02%
+  18  AT4G01250.1|PACid_19645584        92.89%    failed      0.08%
+  19  AT4G11070.1|PACid_19646382        92.54%    failed      0.15%
+  20  AT4G26640.2|PACid_19646464        86.72%    failed      0.00%
+  21  AT4G22070.1|PACid_19646691        87.17%    failed      0.00%
+  22  AT4G04450.1|PACid_19647041        87.41%    failed      0.00%
+  23  AT4G24240.1|PACid_19647169        91.58%    failed      0.73%
+  24  AT4G31550.1|PACid_19647358        92.25%    failed      2.00%
+  25  AT4G30935.1|PACid_19647487        88.89%    failed      0.00%
+  26  AT4G18170.1|PACid_19647683        92.42%    failed      0.26%
+  27  AT4G26440.1|PACid_19647770        86.46%    failed      0.01%
+  28  AT4G23810.1|PACid_19648384        92.27%    failed      2.18%
+  29  AT4G01720.1|PACid_19648609        88.34%    failed      0.00%
+  30  AT4G23550.1|PACid_19648615        92.75%    failed      0.01%
+  31  AT4G39410.1|PACid_19648649        92.75%    failed      0.00%
+  32  AT1G69810.1|PACid_19649130        90.77%    failed      0.00%
+  33  AT1G80840.1|PACid_19649422        92.80%    failed      0.01%
+  34  AT1G29860.1|PACid_19650009        93.28%    failed      0.00%
+  35  AT1G18860.1|PACid_19650959        88.56%    failed      0.00%
+  36  AT1G66600.1|PACid_19652039        94.25%    passed     57.23%
+  37  AT1G64000.1|PACid_19652244        95.35%    failed      4.63%
+  38  AT1G13960.1|PACid_19652502        87.74%    failed      0.00%
+  39  AT1G55600.1|PACid_19653520        88.44%    failed      0.00%
+  40  AT1G69310.1|PACid_19653724        93.16%    failed      0.01%
+  41  AT1G80590.1|PACid_19655764        94.40%    passed     55.31%
+  42  AT1G30650.1|PACid_19655852        89.75%    failed      0.00%
+  43  AT1G66560.1|PACid_19656825        94.06%    passed     17.08%
+  44  AT1G66550.1|PACid_19658266        93.94%    passed     53.66%
+  45  AT3G01970.1|PACid_19658911        96.49%    passed     23.89%
+  46  AT3G01080.1|PACid_19659310        89.91%    failed      0.05%
+  47  AT3G04670.1|PACid_19659974        92.13%    failed      0.12%
+  48  AT3G62340.1|PACid_19663331        93.40%    failed      1.13%
+  49  AT3G56400.1|PACid_19664734        92.99%    failed      0.15%
+  50  AT5G49520.1|PACid_19665664        90.49%    failed      0.00%
+  51  AT5G56270.1|PACid_19665783        83.62%    failed      0.00%
+  52  AT5G41570.1|PACid_19666559        95.73%    passed     20.40%
+  53  AT5G01900.1|PACid_19667034        93.73%    failed      0.20%
+  54  AT5G52830.1|PACid_19667107        91.70%    failed      0.00%
+  55  AT5G26170.1|PACid_19667187        95.88%    failed      1.01%
+  56  AT5G46350.1|PACid_19667690        92.23%    failed      0.00%
+  57  AT5G13080.1|PACid_19668284        96.54%    failed      0.84%
+  58  AT5G22570.1|PACid_19668690        93.11%    failed      0.00%
+  59  AT5G45260.1|PACid_19669059        69.29%    failed      0.00%
+  60  AT5G15130.1|PACid_19669511        86.93%    failed      0.00%
+  61  AT5G64810.1|PACid_19670059        95.37%    failed      0.00%
+  62  AT5G07100.1|PACid_19670115        92.63%    failed      0.02%
+  63  AT5G45050.1|PACid_19670641        67.29%    failed      0.00%
+  64  AT5G43290.1|PACid_19671697        93.47%    failed      3.54%
+  65  AT5G28650.1|PACid_19671738        92.13%    failed      0.00%
+  66  AT5G24110.1|PACid_19673033        92.78%    failed      0.49%
+  67  LOC_Os10g18099.1|PACid_24094147   93.42%    failed      0.26%
+  68  LOC_Os08g13840.2|PACid_24098212   92.68%    failed      0.00%
+  69  LOC_Os08g38990.3|PACid_24098687   83.93%    failed      0.05%
+  70  LOC_Os08g17400.1|PACid_24101198   86.89%    failed      0.00%
+  71  LOC_Os08g29660.1|PACid_24101332   92.39%    failed      0.00%
+  72  LOC_Os04g50920.1|PACid_24103135   87.74%    failed      0.00%
+  73  LOC_Os04g46060.1|PACid_24103214   94.04%    failed      2.59%
+  74  LOC_Os04g51560.1|PACid_24104755   92.63%    failed      0.00%
+  75  LOC_Os04g21950.1|PACid_24106977   92.23%    failed      0.00%
+  76  LOC_Os04g39570.1|PACid_24108384   76.20%    failed      0.00%
+  77  LOC_Os07g39480.1|PACid_24110549   85.26%    failed      0.00%
+  78  LOC_Os07g48260.1|PACid_24112304   92.06%    failed      0.00%
+  79  LOC_Os07g02060.1|PACid_24112729   93.09%    failed      0.00%
+  80  LOC_Os07g27670.1|PACid_24113088   93.80%    failed      3.53%
+  81  LOC_Os07g40570.1|PACid_24113117   89.70%    failed      0.03%
+  82  LOC_Os01g43650.1|PACid_24113784   90.96%    failed      0.00%
+  83  LOC_Os01g47560.1|PACid_24114059   86.17%    failed      0.00%
+  84  LOC_Os01g60540.1|PACid_24114150   91.06%    failed      0.00%
+  85  LOC_Os01g18584.1|PACid_24114432   85.62%    failed      0.00%
+  86  LOC_Os01g53040.1|PACid_24116390   92.39%    failed      0.00%
+  87  LOC_Os01g51690.1|PACid_24116605   94.16%    failed      0.00%
+  88  LOC_Os01g74140.1|PACid_24117010   90.22%    failed      0.55%
+  89  LOC_Os01g43550.1|PACid_24117685   91.65%    failed      0.00%
+  90  LOC_Os01g46800.1|PACid_24118091   93.47%    failed      0.10%
+  91  LOC_Os01g54600.1|PACid_24118401   92.47%    failed      0.00%
+  92  LOC_Os01g14440.1|PACid_24118460   86.10%    failed      0.00%
+  93  LOC_Os01g09080.1|PACid_24118793   87.91%    failed      0.00%
+  94  LOC_Os01g09100.1|PACid_24119597   94.78%    failed      0.00%
+  95  LOC_Os01g60600.1|PACid_24119621   91.46%    failed      0.00%
+  96  LOC_Os01g53260.1|PACid_24120034   93.94%    failed      0.78%
+  97  LOC_Os01g08710.1|PACid_24120668   89.89%    failed      0.57%
+  98  LOC_Os01g62514.1|PACid_24120717   95.35%    failed      0.77%
+  99  LOC_Os01g40430.1|PACid_24121362   92.61%    failed      0.01%
+ 100  LOC_Os01g60490.1|PACid_24121375   93.68%    passed     50.82%
+ 101  LOC_Os01g61080.1|PACid_24121503   86.77%    failed      0.00%
+ 102  LOC_Os01g60640.1|PACid_24121505   93.32%    failed      0.00%
+ 103  LOC_Os01g40260.1|PACid_24121525   94.13%    failed      0.02%
+ 104  LOC_Os03g53050.1|PACid_24122325   90.77%    failed      0.04%
+ 105  LOC_Os03g55080.1|PACid_24125535   92.51%    failed      0.00%
+ 106  LOC_Os03g55164.1|PACid_24125917   76.11%    failed      0.00%
+ 107  LOC_Os03g20550.1|PACid_24126549   94.99%    passed     42.03%
+ 108  LOC_Os03g33012.1|PACid_24126791   88.63%    failed      0.00%
+ 109  LOC_Os03g21710.1|PACid_24127298   91.51%    failed      0.00%
+ 110  LOC_Os03g63810.1|PACid_24127381   90.77%    failed      0.01%
+ 111  LOC_Os03g58420.1|PACid_24128364   90.94%    failed      0.00%
+ 112  LOC_Os02g08440.1|PACid_24129555   91.70%    failed      0.00%
+ 113  LOC_Os02g47060.1|PACid_24131554   87.94%    failed      0.00%
+ 114  LOC_Os02g43560.1|PACid_24132170   95.49%    passed     39.01%
+ 115  LOC_Os02g16540.1|PACid_24133330   91.39%    failed      0.00%
+ 116  LOC_Os02g53100.1|PACid_24134469   85.60%    failed      0.00%
+ 117  LOC_Os02g26430.1|PACid_24134718   93.97%    failed      0.00%
+ 118  LOC_Os09g09630.1|PACid_24135501   93.06%    failed      0.02%
+ 119  LOC_Os09g25060.1|PACid_24135826   92.20%    failed      0.08%
+ 120  LOC_Os09g25070.1|PACid_24136871   92.42%    failed      0.00%
+ 121  LOC_Os09g16510.1|PACid_24137546   91.39%    failed      0.00%
+ 122  LOC_Os09g30400.3|PACid_24138167   84.91%    failed      0.00%
+ 123  LOC_Os06g06360.1|PACid_24139321   90.68%    failed      0.00%
+ 124  LOC_Os06g30860.1|PACid_24140437   91.75%    failed      0.00%
+ 125  LOC_Os06g44010.1|PACid_24141799   90.56%    failed      0.00%
+ 126  LOC_Os06g05380.1|PACid_24144138   87.43%    failed      0.00%
+ 127  LOC_Os12g01180.1|PACid_24144948   89.13%    failed      0.01%
+ 128  LOC_Os12g02450.1|PACid_24145572   92.35%    failed      0.01%
+ 129  LOC_Os12g02440.4|PACid_24145647   93.71%    passed     59.87%
+ 130  LOC_Os12g02420.1|PACid_24145659   94.66%    failed      0.79%
+ 131  LOC_Os12g02400.1|PACid_24146826   91.96%    passed      5.63%
+ 132  LOC_Os12g40570.1|PACid_24148383   91.30%    failed      0.00%
+ 133  LOC_Os12g32250.1|PACid_24148907   87.12%    failed      0.00%
+ 134  LOC_Os05g25770.1|PACid_24150103   92.23%    failed      0.00%
+ 135  LOC_Os05g40080.1|PACid_24150175   92.18%    failed      0.00%
+ 136  LOC_Os05g09020.1|PACid_24150747   95.37%    failed      0.12%
+ 137  LOC_Os05g04640.1|PACid_24150875   88.03%    failed      0.00%
+ 138  LOC_Os05g49210.1|PACid_24150977   85.10%    failed      0.00%
+ 139  LOC_Os05g27730.1|PACid_24151842   88.39%    failed      0.00%
+ 140  LOC_Os05g40070.1|PACid_24151966   93.32%    failed      0.55%
+ 141  LOC_Os05g03900.2|PACid_24152043   94.13%    passed     16.55%
+ 142  LOC_Os05g46020.1|PACid_24152641   94.73%    failed      0.00%
+ 143  LOC_Os05g50610.1|PACid_24152871   88.01%    failed      0.02%
+ 144  LOC_Os05g40060.1|PACid_24153219   92.11%    failed      0.00%
+ 145  LOC_Os05g49100.1|PACid_24153412   90.01%    failed      0.00%
+ 146  LOC_Os05g45230.1|PACid_24154164   95.68%    failed      0.00%
+ 147  LOC_Os05g50700.1|PACid_24154354   92.16%    failed      3.48%
+ 148  LOC_Os05g14370.1|PACid_24154402   92.66%    passed     15.31%
+ 149  LOC_Os05g39720.1|PACid_24154429   86.36%    failed      0.00%
+ 150  LOC_Os05g49620.1|PACid_24154469   93.40%    failed      0.01%
+ 151  LOC_Os11g02530.1|PACid_24155942   92.37%    failed      0.00%
+ 152  LOC_Os11g45850.1|PACid_24156532   93.82%    failed      2.34%
+ 153  LOC_Os11g02520.1|PACid_24158297   93.32%    passed     34.80%
+ 154  LOC_Os11g02480.2|PACid_24159224   94.66%    failed      0.12%
+ 155  LOC_Os11g29870.1|PACid_24159287   94.23%    failed      0.09%
+ 156  LOC_Os11g02470.1|PACid_24159400   92.01%    failed      4.91%
+ 157  Zm00001eb244890_P004              85.00%    failed      0.00%
+ 158  Zm00001eb244890_P005              85.00%    failed      0.00%
+ 159  Zm00001eb244890_P002              85.60%    failed      0.00%
+ 160  Zm00001eb244890_P001              85.00%    failed      0.00%
+ 161  Zm00001eb244890_P003              85.00%    failed      0.00%
+ 162  Zm00001eb186280_P001              94.40%    passed     28.43%
+ 163  Zm00001eb042020_P001              92.06%    failed      0.00%
+ 164  Zm00001eb107920_P001              85.46%    failed      0.00%
+ 165  Zm00001eb139800_P001              91.96%    failed      4.97%
+ 166  Zm00001eb371340_P002              94.59%    failed      0.03%
+ 167  Zm00001eb371340_P001              95.95%    failed      0.00%
+ 168  Zm00001eb312890_P001              92.89%    failed      0.00%
+ 169  Zm00001eb312890_P002              93.66%    failed      0.02%
+ 170  Zm00001eb075170_P001              93.23%    failed      0.94%
+ 171  Zm00001eb195440_P002              91.77%    failed      0.01%
+ 172  Zm00001eb195440_P001              91.75%    failed      0.01%
+ 173  Zm00001eb178550_P001              92.37%    failed      0.01%
+ 174  Zm00001eb353670_P001              94.54%    failed      1.30%
+ 175  Zm00001eb294180_P001              94.73%    failed      0.00%
+ 176  Zm00001eb325760_P001              85.38%    failed      0.00%
+ 177  Zm00001eb325760_P002              86.72%    failed      0.00%
+ 178  Zm00001eb154960_P001              94.92%    failed      0.06%
+ 179  Zm00001eb112840_P001              94.75%    passed      5.20%
+ 180  Zm00001eb316310_P001              86.10%    failed      0.00%
+ 181  Zm00001eb159340_P001              91.61%    failed      0.01%
+ 182  Zm00001eb158000_P001              92.04%    failed      0.00%
+ 183  Zm00001eb358740_P001              91.44%    failed      0.08%
+ 184  Zm00001eb296020_P001              90.27%    failed      0.00%
+ 185  Zm00001eb079950_P001              83.24%    failed      0.00%
+ 186  Zm00001eb079950_P002              83.24%    failed      0.00%
+ 187  Zm00001eb079950_P003              86.79%    failed      0.01%
+ 188  Zm00001eb337270_P001              94.54%    failed      0.00%
+ 189  Zm00001eb218170_P001              96.57%    failed      1.14%
+ 190  Zm00001eb101700_P001              86.48%    failed      0.00%
+ 191  Zm00001eb101700_P002              86.48%    failed      0.00%
+ 192  Zm00001eb359740_P002              90.70%    failed      0.00%
+ 193  Zm00001eb359740_P001              90.13%    failed      0.00%
+ 194  Zm00001eb424710_P002              84.19%    failed      0.00%
+ 195  Zm00001eb424710_P001              84.19%    failed      0.00%
+ 196  Zm00001eb215190_P001              90.58%    failed      0.00%
+ 197  Zm00001eb215190_P002              90.58%    failed      0.00%
+ 198  Zm00001eb346880_P001              95.11%    failed      0.10%
+ 199  Zm00001eb346880_P002              96.57%    passed     28.65%
+ 200  Zm00001eb359470_P001              92.20%    failed      0.01%
+ 201  Zm00001eb154170_P001              93.16%    failed      0.00%
+ 202  Zm00001eb025220_P001              89.51%    failed      0.00%
+ 203  Zm00001eb195420_P001              93.59%    failed      0.00%
+ 204  Zm00001eb195420_P002              94.56%    failed      1.34%
+ 205  Zm00001eb064880_P001              90.94%    failed      0.01%
+ 206  Zm00001eb064880_P002              90.92%    failed      0.01%
+ 207  Zm00001eb176740_P001              86.50%    failed      0.00%
+ 208  Zm00001eb176740_P002              87.08%    failed      0.00%
+ 209  Zm00001eb153330_P002              92.70%    failed      0.00%
+ 210  Zm00001eb153330_P001              91.20%    failed      0.00%
+ 211  Zm00001eb153330_P003              93.78%    failed      0.00%
+ 212  Zm00001eb153330_P004              95.23%    failed      0.00%
+ 213  Zm00001eb350280_P002              91.54%    failed      0.00%
+ 214  Zm00001eb350280_P001              88.13%    failed      0.00%
+ 215  Zm00001eb310260_P001              92.80%    failed      1.67%
+WARNING: 215 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                             90.70%  196 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: Zm00001eb244890_P005 is identical to Zm00001eb244890_P004 but kept for subsequent analysis
+NOTE: Zm00001eb079950_P002 is identical to Zm00001eb079950_P001 but kept for subsequent analysis
+NOTE: Zm00001eb101700_P002 is identical to Zm00001eb101700_P001 but kept for subsequent analysis
+NOTE: Zm00001eb424710_P001 is identical to Zm00001eb424710_P002 but kept for subsequent analysis
+NOTE: Zm00001eb215190_P002 is identical to Zm00001eb215190_P001 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00941626 secs using 1456% CPU
+Identifying sites to remove: done in 0.00510575 secs using 2020% CPU
+NOTE: 2 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Zm00001eb244890_P001 (identical to Zm00001eb244890_P004) is ignored but added at the end
+NOTE: Zm00001eb244890_P003 (identical to Zm00001eb244890_P004) is ignored but added at the end
+Alignment was printed to /home/juan/WRKY-phylogeny-Echeverri/03_alignment/WRKY_all_species_aligned.fa.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to /home/juan/WRKY-phylogeny-Echeverri/03_alignment/WRKY_all_species_aligned.fa.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.252 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 135027)...
+
+NOTE: 409 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+2 trees examined
+Threads: 1 / Time: 19.879 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -188819
+Threads: 2 / Time: 10.096 sec / Speedup: 1.969 / Efficiency: 98% / LogL: -188819
+Threads: 3 / Time: 7.277 sec / Speedup: 2.732 / Efficiency: 91% / LogL: -188819
+Threads: 4 / Time: 6.466 sec / Speedup: 3.075 / Efficiency: 77% / LogL: -188819
+Threads: 5 / Time: 6.830 sec / Speedup: 2.911 / Efficiency: 58% / LogL: -188819
+Threads: 6 / Time: 6.153 sec / Speedup: 3.231 / Efficiency: 54% / LogL: -188819
+Threads: 7 / Time: 6.965 sec / Speedup: 2.854 / Efficiency: 41% / LogL: -188819
+Determining AUTO threadcount: done in 63.7565 secs using 324.4% CPU
+BEST NUMBER OF THREADS: 4
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -178540.609
+2. Current log-likelihood: -143155.446
+3. Current log-likelihood: -142909.311
+4. Current log-likelihood: -142906.950
+5. Current log-likelihood: -142906.670
+Optimal log-likelihood: -142906.588
+Gamma shape alpha: 1.124
+Parameters optimization took 5 rounds (9.909 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 1.17487 secs using 399.4% CPU
+Computing ML distances took 1.175884 sec (of wall-clock time) 4.704964 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 0.000734923 secs using 286.7% CPU
+Constructing RapidNJ tree: done in 0.105709 secs using 26.91% CPU
+Computing RapidNJ tree took 0.106551 sec (of wall-clock time) 0.030613 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -143672.339
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 25.426 second
+Computing log-likelihood of 98 initial trees ... 47.175 seconds
+Current best score: -142906.588
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -142636.082
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 7: -142632.662
+Iteration 10 / LogL: -142660.690 / Time: 0h:5m:2s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 13: -142629.480
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 14: -142624.218
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 20: -142615.549
+Iteration 20 / LogL: -142615.549 / Time: 0h:7m:26s
+Finish initializing candidate tree set (20)
+Current best tree score: -142615.549 / CPU time: 365.910
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -142617.235 / Time: 0h:9m:20s (0h:28m:54s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 34: -142608.907
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 35: -142607.681
+Iteration 40 / LogL: -142616.252 / Time: 0h:11m:21s (0h:27m:38s left)
+Iteration 50 / LogL: -142608.369 / Time: 0h:13m:23s (0h:23m:12s left)
+Log-likelihood cutoff on original alignment: -142690.059
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 59: -142607.211
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 60: -142607.145
+Iteration 60 / LogL: -142607.145 / Time: 0h:15m:19s (0h:25m:56s left)
+Iteration 70 / LogL: -142629.242 / Time: 0h:17m:14s (0h:22m:28s left)
+Iteration 80 / LogL: -142612.817 / Time: 0h:19m:8s (0h:19m:22s left)
+Iteration 90 / LogL: -142612.581 / Time: 0h:21m:2s (0h:16m:32s left)
+Iteration 100 / LogL: -142611.133 / Time: 0h:22m:58s (0h:13m:55s left)
+Log-likelihood cutoff on original alignment: -142688.770
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+Iteration 110 / LogL: -142616.384 / Time: 0h:24m:58s (0h:20m:36s left)
+Iteration 120 / LogL: -142608.375 / Time: 0h:26m:51s (0h:18m:2s left)
+Iteration 130 / LogL: -142609.292 / Time: 0h:28m:47s (0h:15m:36s left)
+Iteration 140 / LogL: -142611.500 / Time: 0h:30m:41s (0h:13m:14s left)
+Iteration 150 / LogL: -142612.927 / Time: 0h:32m:41s (0h:10m:57s left)
+Log-likelihood cutoff on original alignment: -142678.626
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 157: -142607.089
+Iteration 160 / LogL: -142612.978 / Time: 0h:34m:35s (0h:21m:5s left)
+Iteration 170 / LogL: -142611.169 / Time: 0h:36m:30s (0h:18m:46s left)
+Iteration 180 / LogL: -142616.167 / Time: 0h:38m:20s (0h:16m:29s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 186: -142607.073
+Iteration 190 / LogL: -142608.934 / Time: 0h:40m:11s (0h:20m:24s left)
+Iteration 200 / LogL: -142607.386 / Time: 0h:42m:1s (0h:18m:9s left)
+Log-likelihood cutoff on original alignment: -142678.626
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 210 / LogL: -142608.263 / Time: 0h:43m:47s (0h:18m:50s left)
+Iteration 220 / LogL: -142607.873 / Time: 0h:45m:33s (0h:16m:38s left)
+Iteration 230 / LogL: -142608.029 / Time: 0h:47m:22s (0h:14m:28s left)
+Iteration 240 / LogL: -142607.636 / Time: 0h:48m:55s (0h:12m:16s left)
+Iteration 250 / LogL: -142609.293 / Time: 0h:50m:26s (0h:10m:7s left)
+Log-likelihood cutoff on original alignment: -142678.626
+Iteration 260 / LogL: -142610.600 / Time: 0h:52m:3s (0h:8m:2s left)
+Iteration 270 / LogL: -142616.411 / Time: 0h:53m:35s (0h:5m:58s left)
+Iteration 280 / LogL: -142607.874 / Time: 0h:55m:5s (0h:3m:56s left)
+TREE SEARCH COMPLETED AFTER 287 ITERATIONS / Time: 0h:56m:12s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -142607.073
+Optimal log-likelihood: -142607.073
+Gamma shape alpha: 1.099
+Parameters optimization took 1 rounds (0.965 sec)
+BEST SCORE FOUND : -142607.073
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+4.557 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file /home/juan/WRKY-phylogeny-Echeverri/03_alignment/WRKY_all_species_aligned.fa.splits.nex
+Total tree length: 173.846
+
+Total number of iterations: 287
+CPU time used for tree search: 13087.105 sec (3h:38m:7s)
+Wall-clock time used for tree search: 3292.646 sec (0h:54m:52s)
+Total CPU time used: 13389.347 sec (3h:43m:9s)
+Total wall-clock time used: 3378.646 sec (0h:56m:18s)
+
+Computing bootstrap consensus tree...
+Reading input file /home/juan/WRKY-phylogeny-Echeverri/03_alignment/WRKY_all_species_aligned.fa.splits.nex...
+213 taxa and 972 splits.
+Consensus tree written to /home/juan/WRKY-phylogeny-Echeverri/03_alignment/WRKY_all_species_aligned.fa.contree
+Reading input trees file /home/juan/WRKY-phylogeny-Echeverri/03_alignment/WRKY_all_species_aligned.fa.contree
+Log-likelihood of consensus tree: -142607.414
+
+Analysis results written to: 
+  IQ-TREE report:                /home/juan/WRKY-phylogeny-Echeverri/03_alignment/WRKY_all_species_aligned.fa.iqtree
+  Maximum-likelihood tree:       /home/juan/WRKY-phylogeny-Echeverri/03_alignment/WRKY_all_species_aligned.fa.treefile
+  Likelihood distances:          /home/juan/WRKY-phylogeny-Echeverri/03_alignment/WRKY_all_species_aligned.fa.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /home/juan/WRKY-phylogeny-Echeverri/03_alignment/WRKY_all_species_aligned.fa.splits.nex
+  Consensus tree:                /home/juan/WRKY-phylogeny-Echeverri/03_alignment/WRKY_all_species_aligned.fa.contree
+  Screen log file:               /home/juan/WRKY-phylogeny-Echeverri/03_alignment/WRKY_all_species_aligned.fa.log
+
+Date and Time: Mon Apr  6 15:34:06 2026
+8420.1|PACid_24128364
+LOC_Os02g08440.1|PACid:24129555 -> LOC_Os02g08440.1|PACid_24129555
+LOC_Os02g47060.1|PACid:24131554 -> LOC_Os02g47060.1|PACid_24131554
+LOC_Os02g43560.1|PACid:24132170 -> LOC_Os02g43560.1|PACid_24132170
+LOC_Os02g16540.1|PACid:24133330 -> LOC_Os02g16540.1|PACid_24133330
+LOC_Os02g53100.1|PACid:24134469 -> LOC_Os02g53100.1|PACid_24134469
+LOC_Os02g26430.1|PACid:24134718 -> LOC_Os02g26430.1|PACid_24134718
+LOC_Os09g09630.1|PACid:24135501 -> LOC_Os09g09630.1|PACid_24135501
+LOC_Os09g25060.1|PACid:24135826 -> LOC_Os09g25060.1|PACid_24135826
+LOC_Os09g25070.1|PACid:24136871 -> LOC_Os09g25070.1|PACid_24136871
+LOC_Os09g16510.1|PACid:24137546 -> LOC_Os09g16510.1|PACid_24137546
+LOC_Os09g30400.3|PACid:24138167 -> LOC_Os09g30400.3|PACid_24138167
+LOC_Os06g06360.1|PACid:24139321 -> LOC_Os06g06360.1|PACid_24139321
+LOC_Os06g30860.1|PACid:24140437 -> LOC_Os06g30860.1|PACid_24140437
+LOC_Os06g44010.1|PACid:24141799 -> LOC_Os06g44010.1|PACid_24141799
+LOC_Os06g05380.1|PACid:24144138 -> LOC_Os06g05380.1|PACid_24144138
+LOC_Os12g01180.1|PACid:24144948 -> LOC_Os12g01180.1|PACid_24144948
+LOC_Os12g02450.1|PACid:24145572 -> LOC_Os12g02450.1|PACid_24145572
+LOC_Os12g02440.4|PACid:24145647 -> LOC_Os12g02440.4|PACid_24145647
+LOC_Os12g02420.1|PACid:24145659 -> LOC_Os12g02420.1|PACid_24145659
+LOC_Os12g02400.1|PACid:24146826 -> LOC_Os12g02400.1|PACid_24146826
+LOC_Os12g40570.1|PACid:24148383 -> LOC_Os12g40570.1|PACid_24148383
+LOC_Os12g32250.1|PACid:24148907 -> LOC_Os12g32250.1|PACid_24148907
+LOC_Os05g25770.1|PACid:24150103 -> LOC_Os05g25770.1|PACid_24150103
+LOC_Os05g40080.1|PACid:24150175 -> LOC_Os05g40080.1|PACid_24150175
+LOC_Os05g09020.1|PACid:24150747 -> LOC_Os05g09020.1|PACid_24150747
+LOC_Os05g04640.1|PACid:24150875 -> LOC_Os05g04640.1|PACid_24150875
+LOC_Os05g49210.1|PACid:24150977 -> LOC_Os05g49210.1|PACid_24150977
+LOC_Os05g27730.1|PACid:24151842 -> LOC_Os05g27730.1|PACid_24151842
+LOC_Os05g40070.1|PACid:24151966 -> LOC_Os05g40070.1|PACid_24151966
+LOC_Os05g03900.2|PACid:24152043 -> LOC_Os05g03900.2|PACid_24152043
+LOC_Os05g46020.1|PACid:24152641 -> LOC_Os05g46020.1|PACid_24152641
+LOC_Os05g50610.1|PACid:24152871 -> LOC_Os05g50610.1|PACid_24152871
+LOC_Os05g40060.1|PACid:24153219 -> LOC_Os05g40060.1|PACid_24153219
+LOC_Os05g49100.1|PACid:24153412 -> LOC_Os05g49100.1|PACid_24153412
+LOC_Os05g45230.1|PACid:24154164 -> LOC_Os05g45230.1|PACid_24154164
+LOC_Os05g50700.1|PACid:24154354 -> LOC_Os05g50700.1|PACid_24154354
+LOC_Os05g14370.1|PACid:24154402 -> LOC_Os05g14370.1|PACid_24154402
+LOC_Os05g39720.1|PACid:24154429 -> LOC_Os05g39720.1|PACid_24154429
+LOC_Os05g49620.1|PACid:24154469 -> LOC_Os05g49620.1|PACid_24154469
+LOC_Os11g02530.1|PACid:24155942 -> LOC_Os11g02530.1|PACid_24155942
+LOC_Os11g45850.1|PACid:24156532 -> LOC_Os11g45850.1|PACid_24156532
+LOC_Os11g02520.1|PACid:24158297 -> LOC_Os11g02520.1|PACid_24158297
+LOC_Os11g02480.2|PACid:24159224 -> LOC_Os11g02480.2|PACid_24159224
+LOC_Os11g29870.1|PACid:24159287 -> LOC_Os11g29870.1|PACid_24159287
+LOC_Os11g02470.1|PACid:24159400 -> LOC_Os11g02470.1|PACid_24159400
+
+                                 Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0270883 secs using 1429% CPU
+   1  AT2G37260.1|PACid_19638141        89.77%    failed      0.00%
+   2  AT2G44745.1|PACid_19638720        94.80%    failed      0.05%
+   3  AT2G03340.1|PACid_19638813        87.77%    failed      0.00%
+   4  AT2G47260.1|PACid_19638986        91.96%    failed      0.02%
+   5  AT2G25000.1|PACid_19639530        93.54%    failed      0.16%
+   6  AT2G46130.1|PACid_19639763        97.40%    passed     29.15%
+   7  AT2G34830.1|PACid_19639979        89.82%    failed      0.00%
+   8  AT2G38470.1|PACid_19640205        87.63%    failed      0.00%
+   9  AT2G24570.1|PACid_19640773        92.35%    failed      0.01%
+  10  AT2G46400.1|PACid_19641583        92.97%    failed      0.00%
+  11  AT2G30250.1|PACid_19641915        90.63%    failed      0.01%
+  12  AT2G40740.1|PACid_19642333        93.04%    passed     12.02%
+  13  AT2G04880.1|PACid_19642396        88.39%    failed      0.00%
+  14  AT2G23320.1|PACid_19643488        92.44%    failed      0.00%
+  15  AT2G21900.1|PACid_19643565        95.18%    failed      0.00%
+  16  AT4G12020.2|PACid_19644332        54.82%    failed      0.00%
+  17  AT4G31800.1|PACid_19644902        92.61%    failed      0.02%
+  18  AT4G01250.1|PACid_19645584        92.89%    failed      0.08%
+  19  AT4G11070.1|PACid_19646382        92.54%    failed      0.15%
+  20  AT4G26640.2|PACid_19646464        86.72%    failed      0.00%
+  21  AT4G22070.1|PACid_19646691        87.17%    failed      0.00%
+  22  AT4G04450.1|PACid_19647041        87.41%    failed      0.00%
+  23  AT4G24240.1|PACid_19647169        91.58%    failed      0.73%
+  24  AT4G31550.1|PACid_19647358        92.25%    failed      2.00%
+  25  AT4G30935.1|PACid_19647487        88.89%    failed      0.00%
+  26  AT4G18170.1|PACid_19647683        92.42%    failed      0.26%
+  27  AT4G26440.1|PACid_19647770        86.46%    failed      0.01%
+  28  AT4G23810.1|PACid_19648384        92.27%    failed      2.18%
+  29  AT4G01720.1|PACid_19648609        88.34%    failed      0.00%
+  30  AT4G23550.1|PACid_19648615        92.75%    failed      0.01%
+  31  AT4G39410.1|PACid_19648649        92.75%    failed      0.00%
+  32  AT1G69810.1|PACid_19649130        90.77%    failed      0.00%
+  33  AT1G80840.1|PACid_19649422        92.80%    failed      0.01%
+  34  AT1G29860.1|PACid_19650009        93.28%    failed      0.00%
+  35  AT1G18860.1|PACid_19650959        88.56%    failed      0.00%
+  36  AT1G66600.1|PACid_19652039        94.25%    passed     57.23%
+  37  AT1G64000.1|PACid_19652244        95.35%    failed      4.63%
+  38  AT1G13960.1|PACid_19652502        87.74%    failed      0.00%
+  39  AT1G55600.1|PACid_19653520        88.44%    failed      0.00%
+  40  AT1G69310.1|PACid_19653724        93.16%    failed      0.01%
+  41  AT1G80590.1|PACid_19655764        94.40%    passed     55.31%
+  42  AT1G30650.1|PACid_19655852        89.75%    failed      0.00%
+  43  AT1G66560.1|PACid_19656825        94.06%    passed     17.08%
+  44  AT1G66550.1|PACid_19658266        93.94%    passed     53.66%
+  45  AT3G01970.1|PACid_19658911        96.49%    passed     23.89%
+  46  AT3G01080.1|PACid_19659310        89.91%    failed      0.05%
+  47  AT3G04670.1|PACid_19659974        92.13%    failed      0.12%
+  48  AT3G62340.1|PACid_19663331        93.40%    failed      1.13%
+  49  AT3G56400.1|PACid_19664734        92.99%    failed      0.15%
+  50  AT5G49520.1|PACid_19665664        90.49%    failed      0.00%
+  51  AT5G56270.1|PACid_19665783        83.62%    failed      0.00%
+  52  AT5G41570.1|PACid_19666559        95.73%    passed     20.40%
+  53  AT5G01900.1|PACid_19667034        93.73%    failed      0.20%
+  54  AT5G52830.1|PACid_19667107        91.70%    failed      0.00%
+  55  AT5G26170.1|PACid_19667187        95.88%    failed      1.01%
+  56  AT5G46350.1|PACid_19667690        92.23%    failed      0.00%
+  57  AT5G13080.1|PACid_19668284        96.54%    failed      0.84%
+  58  AT5G22570.1|PACid_19668690        93.11%    failed      0.00%
+  59  AT5G45260.1|PACid_19669059        69.29%    failed      0.00%
+  60  AT5G15130.1|PACid_19669511        86.93%    failed      0.00%
+  61  AT5G64810.1|PACid_19670059        95.37%    failed      0.00%
+  62  AT5G07100.1|PACid_19670115        92.63%    failed      0.02%
+  63  AT5G45050.1|PACid_19670641        67.29%    failed      0.00%
+  64  AT5G43290.1|PACid_19671697        93.47%    failed      3.54%
+  65  AT5G28650.1|PACid_19671738        92.13%    failed      0.00%
+  66  AT5G24110.1|PACid_19673033        92.78%    failed      0.49%
+  67  LOC_Os10g18099.1|PACid_24094147   93.42%    failed      0.26%
+  68  LOC_Os08g13840.2|PACid_24098212   92.68%    failed      0.00%
+  69  LOC_Os08g38990.3|PACid_24098687   83.93%    failed      0.05%
+  70  LOC_Os08g17400.1|PACid_24101198   86.89%    failed      0.00%
+  71  LOC_Os08g29660.1|PACid_24101332   92.39%    failed      0.00%
+  72  LOC_Os04g50920.1|PACid_24103135   87.74%    failed      0.00%
+  73  LOC_Os04g46060.1|PACid_24103214   94.04%    failed      2.59%
+  74  LOC_Os04g51560.1|PACid_24104755   92.63%    failed      0.00%
+  75  LOC_Os04g21950.1|PACid_24106977   92.23%    failed      0.00%
+  76  LOC_Os04g39570.1|PACid_24108384   76.20%    failed      0.00%
+  77  LOC_Os07g39480.1|PACid_24110549   85.26%    failed      0.00%
+  78  LOC_Os07g48260.1|PACid_24112304   92.06%    failed      0.00%
+  79  LOC_Os07g02060.1|PACid_24112729   93.09%    failed      0.00%
+  80  LOC_Os07g27670.1|PACid_24113088   93.80%    failed      3.53%
+  81  LOC_Os07g40570.1|PACid_24113117   89.70%    failed      0.03%
+  82  LOC_Os01g43650.1|PACid_24113784   90.96%    failed      0.00%
+  83  LOC_Os01g47560.1|PACid_24114059   86.17%    failed      0.00%
+  84  LOC_Os01g60540.1|PACid_24114150   91.06%    failed      0.00%
+  85  LOC_Os01g18584.1|PACid_24114432   85.62%    failed      0.00%
+  86  LOC_Os01g53040.1|PACid_24116390   92.39%    failed      0.00%
+  87  LOC_Os01g51690.1|PACid_24116605   94.16%    failed      0.00%
+  88  LOC_Os01g74140.1|PACid_24117010   90.22%    failed      0.55%
+  89  LOC_Os01g43550.1|PACid_24117685   91.65%    failed      0.00%
+  90  LOC_Os01g46800.1|PACid_24118091   93.47%    failed      0.10%
+  91  LOC_Os01g54600.1|PACid_24118401   92.47%    failed      0.00%
+  92  LOC_Os01g14440.1|PACid_24118460   86.10%    failed      0.00%
+  93  LOC_Os01g09080.1|PACid_24118793   87.91%    failed      0.00%
+  94  LOC_Os01g09100.1|PACid_24119597   94.78%    failed      0.00%
+  95  LOC_Os01g60600.1|PACid_24119621   91.46%    failed      0.00%
+  96  LOC_Os01g53260.1|PACid_24120034   93.94%    failed      0.78%
+  97  LOC_Os01g08710.1|PACid_24120668   89.89%    failed      0.57%
+  98  LOC_Os01g62514.1|PACid_24120717   95.35%    failed      0.77%
+  99  LOC_Os01g40430.1|PACid_24121362   92.61%    failed      0.01%
+ 100  LOC_Os01g60490.1|PACid_24121375   93.68%    passed     50.82%
+ 101  LOC_Os01g61080.1|PACid_24121503   86.77%    failed      0.00%
+ 102  LOC_Os01g60640.1|PACid_24121505   93.32%    failed      0.00%
+ 103  LOC_Os01g40260.1|PACid_24121525   94.13%    failed      0.02%
+ 104  LOC_Os03g53050.1|PACid_24122325   90.77%    failed      0.04%
+ 105  LOC_Os03g55080.1|PACid_24125535   92.51%    failed      0.00%
+ 106  LOC_Os03g55164.1|PACid_24125917   76.11%    failed      0.00%
+ 107  LOC_Os03g20550.1|PACid_24126549   94.99%    passed     42.03%
+ 108  LOC_Os03g33012.1|PACid_24126791   88.63%    failed      0.00%
+ 109  LOC_Os03g21710.1|PACid_24127298   91.51%    failed      0.00%
+ 110  LOC_Os03g63810.1|PACid_24127381   90.77%    failed      0.01%
+ 111  LOC_Os03g58420.1|PACid_24128364   90.94%    failed      0.00%
+ 112  LOC_Os02g08440.1|PACid_24129555   91.70%    failed      0.00%
+ 113  LOC_Os02g47060.1|PACid_24131554   87.94%    failed      0.00%
+ 114  LOC_Os02g43560.1|PACid_24132170   95.49%    passed     39.01%
+ 115  LOC_Os02g16540.1|PACid_24133330   91.39%    failed      0.00%
+ 116  LOC_Os02g53100.1|PACid_24134469   85.60%    failed      0.00%
+ 117  LOC_Os02g26430.1|PACid_24134718   93.97%    failed      0.00%
+ 118  LOC_Os09g09630.1|PACid_24135501   93.06%    failed      0.02%
+ 119  LOC_Os09g25060.1|PACid_24135826   92.20%    failed      0.08%
+ 120  LOC_Os09g25070.1|PACid_24136871   92.42%    failed      0.00%
+ 121  LOC_Os09g16510.1|PACid_24137546   91.39%    failed      0.00%
+ 122  LOC_Os09g30400.3|PACid_24138167   84.91%    failed      0.00%
+ 123  LOC_Os06g06360.1|PACid_24139321   90.68%    failed      0.00%
+ 124  LOC_Os06g30860.1|PACid_24140437   91.75%    failed      0.00%
+ 125  LOC_Os06g44010.1|PACid_24141799   90.56%    failed      0.00%
+ 126  LOC_Os06g05380.1|PACid_24144138   87.43%    failed      0.00%
+ 127  LOC_Os12g01180.1|PACid_24144948   89.13%    failed      0.01%
+ 128  LOC_Os12g02450.1|PACid_24145572   92.35%    failed      0.01%
+ 129  LOC_Os12g02440.4|PACid_24145647   93.71%    passed     59.87%
+ 130  LOC_Os12g02420.1|PACid_24145659   94.66%    failed      0.79%
+ 131  LOC_Os12g02400.1|PACid_24146826   91.96%    passed      5.63%
+ 132  LOC_Os12g40570.1|PACid_24148383   91.30%    failed      0.00%
+ 133  LOC_Os12g32250.1|PACid_24148907   87.12%    failed      0.00%
+ 134  LOC_Os05g25770.1|PACid_24150103   92.23%    failed      0.00%
+ 135  LOC_Os05g40080.1|PACid_24150175   92.18%    failed      0.00%
+ 136  LOC_Os05g09020.1|PACid_24150747   95.37%    failed      0.12%
+ 137  LOC_Os05g04640.1|PACid_24150875   88.03%    failed      0.00%
+ 138  LOC_Os05g49210.1|PACid_24150977   85.10%    failed      0.00%
+ 139  LOC_Os05g27730.1|PACid_24151842   88.39%    failed      0.00%
+ 140  LOC_Os05g40070.1|PACid_24151966   93.32%    failed      0.55%
+ 141  LOC_Os05g03900.2|PACid_24152043   94.13%    passed     16.55%
+ 142  LOC_Os05g46020.1|PACid_24152641   94.73%    failed      0.00%
+ 143  LOC_Os05g50610.1|PACid_24152871   88.01%    failed      0.02%
+ 144  LOC_Os05g40060.1|PACid_24153219   92.11%    failed      0.00%
+ 145  LOC_Os05g49100.1|PACid_24153412   90.01%    failed      0.00%
+ 146  LOC_Os05g45230.1|PACid_24154164   95.68%    failed      0.00%
+ 147  LOC_Os05g50700.1|PACid_24154354   92.16%    failed      3.48%
+ 148  LOC_Os05g14370.1|PACid_24154402   92.66%    passed     15.31%
+ 149  LOC_Os05g39720.1|PACid_24154429   86.36%    failed      0.00%
+ 150  LOC_Os05g49620.1|PACid_24154469   93.40%    failed      0.01%
+ 151  LOC_Os11g02530.1|PACid_24155942   92.37%    failed      0.00%
+ 152  LOC_Os11g45850.1|PACid_24156532   93.82%    failed      2.34%
+ 153  LOC_Os11g02520.1|PACid_24158297   93.32%    passed     34.80%
+ 154  LOC_Os11g02480.2|PACid_24159224   94.66%    failed      0.12%
+ 155  LOC_Os11g29870.1|PACid_24159287   94.23%    failed      0.09%
+ 156  LOC_Os11g02470.1|PACid_24159400   92.01%    failed      4.91%
+ 157  Zm00001eb244890_P004              85.00%    failed      0.00%
+ 158  Zm00001eb244890_P005              85.00%    failed      0.00%
+ 159  Zm00001eb244890_P002              85.60%    failed      0.00%
+ 160  Zm00001eb244890_P001              85.00%    failed      0.00%
+ 161  Zm00001eb244890_P003              85.00%    failed      0.00%
+ 162  Zm00001eb186280_P001              94.40%    passed     28.43%
+ 163  Zm00001eb042020_P001              92.06%    failed      0.00%
+ 164  Zm00001eb107920_P001              85.46%    failed      0.00%
+ 165  Zm00001eb139800_P001              91.96%    failed      4.97%
+ 166  Zm00001eb371340_P002              94.59%    failed      0.03%
+ 167  Zm00001eb371340_P001              95.95%    failed      0.00%
+ 168  Zm00001eb312890_P001              92.89%    failed      0.00%
+ 169  Zm00001eb312890_P002              93.66%    failed      0.02%
+ 170  Zm00001eb075170_P001              93.23%    failed      0.94%
+ 171  Zm00001eb195440_P002              91.77%    failed      0.01%
+ 172  Zm00001eb195440_P001              91.75%    failed      0.01%
+ 173  Zm00001eb178550_P001              92.37%    failed      0.01%
+ 174  Zm00001eb353670_P001              94.54%    failed      1.30%
+ 175  Zm00001eb294180_P001              94.73%    failed      0.00%
+ 176  Zm00001eb325760_P001              85.38%    failed      0.00%
+ 177  Zm00001eb325760_P002              86.72%    failed      0.00%
+ 178  Zm00001eb154960_P001              94.92%    failed      0.06%
+ 179  Zm00001eb112840_P001              94.75%    passed      5.20%
+ 180  Zm00001eb316310_P001              86.10%    failed      0.00%
+ 181  Zm00001eb159340_P001              91.61%    failed      0.01%
+ 182  Zm00001eb158000_P001              92.04%    failed      0.00%
+ 183  Zm00001eb358740_P001              91.44%    failed      0.08%
+ 184  Zm00001eb296020_P001              90.27%    failed      0.00%
+ 185  Zm00001eb079950_P001              83.24%    failed      0.00%
+ 186  Zm00001eb079950_P002              83.24%    failed      0.00%
+ 187  Zm00001eb079950_P003              86.79%    failed      0.01%
+ 188  Zm00001eb337270_P001              94.54%    failed      0.00%
+ 189  Zm00001eb218170_P001              96.57%    failed      1.14%
+ 190  Zm00001eb101700_P001              86.48%    failed      0.00%
+ 191  Zm00001eb101700_P002              86.48%    failed      0.00%
+ 192  Zm00001eb359740_P002              90.70%    failed      0.00%
+ 193  Zm00001eb359740_P001              90.13%    failed      0.00%
+ 194  Zm00001eb424710_P002              84.19%    failed      0.00%
+ 195  Zm00001eb424710_P001              84.19%    failed      0.00%
+ 196  Zm00001eb215190_P001              90.58%    failed      0.00%
+ 197  Zm00001eb215190_P002              90.58%    failed      0.00%
+ 198  Zm00001eb346880_P001              95.11%    failed      0.10%
+ 199  Zm00001eb346880_P002              96.57%    passed     28.65%
+ 200  Zm00001eb359470_P001              92.20%    failed      0.01%
+ 201  Zm00001eb154170_P001              93.16%    failed      0.00%
+ 202  Zm00001eb025220_P001              89.51%    failed      0.00%
+ 203  Zm00001eb195420_P001              93.59%    failed      0.00%
+ 204  Zm00001eb195420_P002              94.56%    failed      1.34%
+ 205  Zm00001eb064880_P001              90.94%    failed      0.01%
+ 206  Zm00001eb064880_P002              90.92%    failed      0.01%
+ 207  Zm00001eb176740_P001              86.50%    failed      0.00%
+ 208  Zm00001eb176740_P002              87.08%    failed      0.00%
+ 209  Zm00001eb153330_P002              92.70%    failed      0.00%
+ 210  Zm00001eb153330_P001              91.20%    failed      0.00%
+ 211  Zm00001eb153330_P003              93.78%    failed      0.00%
+ 212  Zm00001eb153330_P004              95.23%    failed      0.00%
+ 213  Zm00001eb350280_P002              91.54%    failed      0.00%
+ 214  Zm00001eb350280_P001              88.13%    failed      0.00%
+ 215  Zm00001eb310260_P001              92.80%    failed      1.67%
+WARNING: 215 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                             90.70%  196 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: Zm00001eb244890_P005 is identical to Zm00001eb244890_P004 but kept for subsequent analysis
+NOTE: Zm00001eb079950_P002 is identical to Zm00001eb079950_P001 but kept for subsequent analysis
+NOTE: Zm00001eb101700_P002 is identical to Zm00001eb101700_P001 but kept for subsequent analysis
+NOTE: Zm00001eb424710_P001 is identical to Zm00001eb424710_P002 but kept for subsequent analysis
+NOTE: Zm00001eb215190_P002 is identical to Zm00001eb215190_P001 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.0112836 secs using 1360% CPU
+Identifying sites to remove: done in 0.0109789 secs using 1592% CPU
+NOTE: 2 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Zm00001eb244890_P001 (identical to Zm00001eb244890_P004) is ignored but added at the end
+NOTE: Zm00001eb244890_P003 (identical to Zm00001eb244890_P004) is ignored but added at the end
+Alignment was printed to /home/juan/WRKY-phylogeny-Echeverri/03_alignment/WRKY_all_species_aligned.fa.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to /home/juan/WRKY-phylogeny-Echeverri/03_alignment/WRKY_all_species_aligned.fa.uniqueseq.phy
+
+CHECKPOINT: Initial tree restored
+Generating 1000 samples for ultrafast bootstrap (seed: 397651)...
+
+NOTE: 409 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+2 trees examined
+Threads: 1 / Time: 19.934 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -190762
+Threads: 2 / Time: 10.709 sec / Speedup: 1.862 / Efficiency: 93% / LogL: -190762
+Threads: 3 / Time: 9.341 sec / Speedup: 2.134 / Efficiency: 71% / LogL: -190762
+Threads: 4 / Time: 8.759 sec / Speedup: 2.276 / Efficiency: 57% / LogL: -190762
+Threads: 5 / Time: 8.770 sec / Speedup: 2.273 / Efficiency: 45% / LogL: -190762
+Determining AUTO threadcount: done in 57.5777 secs using 256.1% CPU
+BEST NUMBER OF THREADS: 4
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -178540.609
+2. Current log-likelihood: -143155.446
+3. Current log-likelihood: -142909.311
+4. Current log-likelihood: -142906.950
+5. Current log-likelihood: -142906.670
+Optimal log-likelihood: -142906.588
+Gamma shape alpha: 1.124
+Parameters optimization took 5 rounds (9.787 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.998667 secs using 399.2% CPU
+Computing ML distances took 0.999488 sec (of wall-clock time) 3.999667 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 0.000703128 secs using 218.6% CPU
+Constructing RapidNJ tree: done in 0.0900157 secs using 17.71% CPU
+Computing RapidNJ tree took 0.090818 sec (of wall-clock time) 0.017516 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -143553.248
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 25.658 second
+Computing log-likelihood of 98 initial trees ... 49.065 seconds
+Current best score: -142906.588
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -142636.082
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -142618.620
+Iteration 10 / LogL: -142643.635 / Time: 0h:5m:4s
+Iteration 20 / LogL: -142629.138 / Time: 0h:7m:34s
+Finish initializing candidate tree set (20)
+Current best tree score: -142618.620 / CPU time: 382.697
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -142611.465
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 25: -142611.309
+Iteration 30 / LogL: -142612.331 / Time: 0h:9m:29s (0h:31m:7s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 32: -142609.699
+Iteration 40 / LogL: -142614.168 / Time: 0h:11m:29s (0h:27m:5s left)
+Iteration 50 / LogL: -142630.589 / Time: 0h:13m:22s (0h:22m:23s left)
+Log-likelihood cutoff on original alignment: -142684.660
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 52: -142607.947
+Iteration 60 / LogL: -142613.066 / Time: 0h:15m:20s (0h:23m:55s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 65: -142607.771
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 70: -142607.478
+Iteration 70 / LogL: -142607.478 / Time: 0h:17m:17s (0h:25m:3s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 71: -142607.330
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 73: -142607.203
+Iteration 80 / LogL: -142608.223 / Time: 0h:19m:17s (0h:22m:43s left)
+Iteration 90 / LogL: -142619.490 / Time: 0h:21m:12s (0h:19m:47s left)
+Iteration 100 / LogL: -142610.559 / Time: 0h:23m:9s (0h:17m:4s left)
+Log-likelihood cutoff on original alignment: -142684.660
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.992
+Iteration 110 / LogL: -142607.423 / Time: 0h:25m:6s (0h:20m:43s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 119: -142607.084
+Iteration 120 / LogL: -142623.705 / Time: 0h:27m:2s (0h:22m:29s left)
+Iteration 130 / LogL: -142611.486 / Time: 0h:28m:56s (0h:19m:58s left)
+Iteration 140 / LogL: -142610.748 / Time: 0h:30m:50s (0h:17m:31s left)
+Iteration 150 / LogL: -142612.164 / Time: 0h:32m:46s (0h:15m:10s left)
+Log-likelihood cutoff on original alignment: -142684.660
+Iteration 160 / LogL: -142611.104 / Time: 0h:34m:43s (0h:12m:53s left)
+Iteration 170 / LogL: -142608.497 / Time: 0h:36m:44s (0h:10m:39s left)
+Iteration 180 / LogL: -142616.226 / Time: 0h:38m:37s (0h:8m:25s left)
+Iteration 190 / LogL: -142609.579 / Time: 0h:40m:36s (0h:6m:13s left)
+Iteration 200 / LogL: -142633.858 / Time: 0h:42m:31s (0h:4m:3s left)
+Log-likelihood cutoff on original alignment: -142684.660
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 210 / LogL: -142616.321 / Time: 0h:44m:27s (0h:19m:8s left)
+Iteration 220 / LogL: -142629.396 / Time: 0h:46m:25s (0h:16m:57s left)
+TREE SEARCH COMPLETED AFTER 220 ITERATIONS / Time: 0h:46m:25s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -142607.084
+Optimal log-likelihood: -142607.078
+Gamma shape alpha: 1.100
+Parameters optimization took 1 rounds (1.272 sec)
+BEST SCORE FOUND : -142607.078
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+5.294 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file /home/juan/WRKY-phylogeny-Echeverri/03_alignment/WRKY_all_species_aligned.fa.splits.nex
+Total tree length: 173.818
+
+Total number of iterations: 220
+CPU time used for tree search: 10773.306 sec (2h:59m:33s)
+Wall-clock time used for tree search: 2713.581 sec (0h:45m:13s)
+Total CPU time used: 11004.633 sec (3h:3m:24s)
+Total wall-clock time used: 2792.596 sec (0h:46m:32s)
+
+Computing bootstrap consensus tree...
+Reading input file /home/juan/WRKY-phylogeny-Echeverri/03_alignment/WRKY_all_species_aligned.fa.splits.nex...
+213 taxa and 946 splits.
+Consensus tree written to /home/juan/WRKY-phylogeny-Echeverri/03_alignment/WRKY_all_species_aligned.fa.contree
+Reading input trees file /home/juan/WRKY-phylogeny-Echeverri/03_alignment/WRKY_all_species_aligned.fa.contree
+Log-likelihood of consensus tree: -142607.678
+
+Analysis results written to: 
+  IQ-TREE report:                /home/juan/WRKY-phylogeny-Echeverri/03_alignment/WRKY_all_species_aligned.fa.iqtree
+  Maximum-likelihood tree:       /home/juan/WRKY-phylogeny-Echeverri/03_alignment/WRKY_all_species_aligned.fa.treefile
+  Likelihood distances:          /home/juan/WRKY-phylogeny-Echeverri/03_alignment/WRKY_all_species_aligned.fa.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /home/juan/WRKY-phylogeny-Echeverri/03_alignment/WRKY_all_species_aligned.fa.splits.nex
+  Consensus tree:                /home/juan/WRKY-phylogeny-Echeverri/03_alignment/WRKY_all_species_aligned.fa.contree
+  Screen log file:               /home/juan/WRKY-phylogeny-Echeverri/03_alignment/WRKY_all_species_aligned.fa.log
+
+Date and Time: Mon Apr  6 15:24:30 2026

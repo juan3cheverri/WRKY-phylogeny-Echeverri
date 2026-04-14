@@ -1,0 +1,14 @@
+00_raw/
+*.ckp.gz
+*.bionj
+*.model.gz
+*.mldist
+*.splits.nex
+nohup.out
+.DS_Store
+03_alignment/*.contree
+03_alignment/*.iqtree
+03_alignment/*.log
+03_alignment/*.treefile
+03_alignment/*.uniqueseq.phy
+04_tree/iqtree_run.log

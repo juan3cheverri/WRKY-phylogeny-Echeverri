@@ -1,23 +1,24 @@
-# WRKY-phylogeny-Echeverri
+# WRKY phylogeny in Arabidopsis, rice, and maize
 
-Proyecto de bioinformática para el análisis filogenético de genes WRKY.
+Proyecto de filogenia de la familia génica **WRKY** usando secuencias de:
+
+- *Arabidopsis thaliana*
+- *Oryza sativa*
+- *Zea mays*
+
+El flujo de trabajo identifica secuencias candidatas WRKY a partir de proteomas, genera un conjunto combinado de secuencias, realiza alineamiento múltiple y construye un árbol filogenético de máxima verosimilitud.
 
 ## Estructura del proyecto
 
-- `00_raw/` : datos descargados
-- `01_ids/` : identificadores extraídos
-- `02_seqtk/` : secuencias procesadas
-- `03_blast/` : resultados BLAST
-- `04_alignment/` : alineamientos
-- `05_iqtree/` : árboles filogenéticos
-- `figures/` : figuras finales
+```text
+WRKY-phylogeny-Echeverri/
+├── 00_raw/                    # proteomas crudos (no versionados)
+├── 01_ids/                    # candidatos WRKY por especie
+├── 02_fasta/                  # FASTA combinado
+├── 03_alignment/              # alineamiento múltiple
+├── 04_tree/
+│   └── final/                 # resultados finales del árbol
+├── scripts/                   # scripts del workflow
+├── .gitignore
+└── README.md
 
-## Scripts
-
-- `00_setup.sh`
-- `01_download.sh`
-- `02_extract_ids.sh`
-- `03_seqtk.sh`
-- `04_blast.sh`
-- `05_megafasta.sh`
-- `06_phylo.sh`
